@@ -9,6 +9,7 @@
     &--left {
         padding-top: 1rem;
         text-align: right;
+        animation: fadeInLeft 1s ease-out;
 
         ul {
             list-style: none;
@@ -45,5 +46,7 @@
     &--right {
         width: 75%;
         font-size: 3rem;
+
+        animation: fadeInBottom 1s ease-out;
     }
 }

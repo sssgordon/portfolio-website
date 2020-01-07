@@ -60,6 +60,6 @@ ORDER: Base + typography > general layout + grid > page layout > components
 @mixin animate-stack($item) {
     opacity: 0;
     animation: fadeIn 1.5s ease-out;
-    animation-delay: $item * 0.5s;
+    animation-delay: $item * 0.35s;
     animation-fill-mode: forwards;
 }

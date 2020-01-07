@@ -29,6 +29,26 @@ ORDER: Base + typography > general layout + grid > page layout > components
     opacity: 100;
   }
 }
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-5rem);
+  }
+  100% {
+    opacity: 100;
+    transform: translate(0);
+  }
+}
+@keyframes fadeInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(5rem);
+  }
+  100% {
+    opacity: 100;
+    transform: translate(0);
+  }
+}
 *,
 *::after,
 *::before {
@@ -103,73 +123,73 @@ body {
 .stack__item--1 {
   opacity: 0;
   animation: fadeIn 1.5s ease-out;
-  animation-delay: 0.5s;
+  animation-delay: 0.35s;
   animation-fill-mode: forwards;
 }
 .stack__item--2 {
   opacity: 0;
   animation: fadeIn 1.5s ease-out;
-  animation-delay: 1s;
+  animation-delay: 0.7s;
   animation-fill-mode: forwards;
 }
 .stack__item--3 {
   opacity: 0;
   animation: fadeIn 1.5s ease-out;
-  animation-delay: 1.5s;
+  animation-delay: 1.05s;
   animation-fill-mode: forwards;
 }
 .stack__item--4 {
   opacity: 0;
   animation: fadeIn 1.5s ease-out;
-  animation-delay: 2s;
+  animation-delay: 1.4s;
   animation-fill-mode: forwards;
 }
 .stack__item--5 {
   opacity: 0;
   animation: fadeIn 1.5s ease-out;
-  animation-delay: 2.5s;
+  animation-delay: 1.75s;
   animation-fill-mode: forwards;
 }
 .stack__item--6 {
   opacity: 0;
   animation: fadeIn 1.5s ease-out;
-  animation-delay: 3s;
+  animation-delay: 2.1s;
   animation-fill-mode: forwards;
 }
 .stack__item--7 {
   opacity: 0;
   animation: fadeIn 1.5s ease-out;
-  animation-delay: 3.5s;
+  animation-delay: 2.45s;
   animation-fill-mode: forwards;
 }
 .stack__item--8 {
   opacity: 0;
   animation: fadeIn 1.5s ease-out;
-  animation-delay: 4s;
+  animation-delay: 2.8s;
   animation-fill-mode: forwards;
 }
 .stack__item--9 {
   opacity: 0;
   animation: fadeIn 1.5s ease-out;
-  animation-delay: 4.5s;
+  animation-delay: 3.15s;
   animation-fill-mode: forwards;
 }
 .stack__item--10 {
   opacity: 0;
   animation: fadeIn 1.5s ease-out;
-  animation-delay: 5s;
+  animation-delay: 3.5s;
   animation-fill-mode: forwards;
 }
 .stack__item--11 {
   opacity: 0;
   animation: fadeIn 1.5s ease-out;
-  animation-delay: 5.5s;
+  animation-delay: 3.85s;
   animation-fill-mode: forwards;
 }
 .stack__item--12 {
   opacity: 0;
   animation: fadeIn 1.5s ease-out;
-  animation-delay: 6s;
+  animation-delay: 4.2s;
   animation-fill-mode: forwards;
 }
 
@@ -217,6 +237,7 @@ body {
 .about__introduction--left {
   padding-top: 1rem;
   text-align: right;
+  animation: fadeInLeft 1s ease-out;
 }
 .about__introduction--left ul {
   list-style: none;
@@ -246,6 +267,7 @@ body {
 .about__introduction--right {
   width: 75%;
   font-size: 3rem;
+  animation: fadeInBottom 1s ease-out;
 }
 
 /*# sourceMappingURL=App.css.map */
