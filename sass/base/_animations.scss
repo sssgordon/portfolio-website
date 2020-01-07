@@ -1,9 +1,12 @@
-@keyframes crawling-line {
+@keyframes title {
     0% {
-        transform: translateZ(0);
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
     }
     100% {
-        transform: translate3d(-100vw, 0, 0);
+        background-position: 0% 50%;
     }
 }
 

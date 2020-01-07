@@ -1,0 +1,23 @@
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as m;
+
+.header {
+    width: 100vw;
+    padding-left: 5rem;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    border: 1px lightgrey solid;
+    z-index: 999;
+
+    @include m.clearfix;
+
+    &__title {
+        font-size: 6rem;
+        font-weight: 200;
+        letter-spacing: 5px;
+        color: v.$color-secondary;
+        float: left;
+    }
+}

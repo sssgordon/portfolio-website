@@ -13,12 +13,15 @@ $breakpoint argument choices:
 
 ORDER: Base + typography > general layout + grid > page layout > components
 */
-@keyframes crawling-line {
+@keyframes title {
   0% {
-    transform: translateZ(0);
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
   }
   100% {
-    transform: translate3d(-100vw, 0, 0);
+    background-position: 0% 50%;
   }
 }
 @keyframes fadeIn {
@@ -64,6 +67,7 @@ html {
 body {
   box-sizing: border-box;
   padding: 3rem;
+  position: relative;
 }
 
 ::selection {
@@ -228,6 +232,32 @@ body {
 }
 .row .col-3-of-4 {
   width: calc( 3 * ((100% - 3 * 8rem) / 4) + 2 * 8rem );
+}
+
+.header {
+  width: 100vw;
+  padding-left: 5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border: 1px lightgrey solid;
+  z-index: 999;
+}
+.header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.header__title {
+  font-size: 6rem;
+  font-weight: 200;
+  letter-spacing: 5px;
+  color: #ffca00;
+  float: left;
+}
+
+.about {
+  margin-top: 10rem;
 }
 
 .about__introduction {

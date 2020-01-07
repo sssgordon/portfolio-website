@@ -1,5 +1,9 @@
 @use "../abstracts/variables" as v;
 
+.about {
+    margin-top: 10rem;
+}
+
 .about__introduction {
     width: 90%;
     margin: 5rem auto;
