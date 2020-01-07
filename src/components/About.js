@@ -1,9 +1,12 @@
 import React from "react";
-import Stack from "./stack";
+import Stack from "./Stack";
+import Header from "./Header";
 
 export default function about(props) {
+    const pathname = props.location.pathname;
     return (
         <div className="about">
+            <Header pathname={pathname} />
             <Stack />
             <div className="about__introduction">
                 <div className="row">
@@ -11,7 +14,7 @@ export default function about(props) {
                         <div className="about__introduction--left">
                             <ul>
                                 <li>
-                                    <a href="www.linkedin.com/in/so-gordon">
+                                    <a href="https://www.linkedin.com/in/so-gordon">
                                         LinkedIn
                                     </a>
                                 </li>
