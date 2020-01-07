@@ -5,7 +5,7 @@ import Header from "./Header";
 export default function about(props) {
     const pathname = props.location.pathname;
     return (
-        <div className="about">
+        <div className="about u-margin-top-large">
             <Header pathname={pathname} />
             <Stack />
             <div className="about__introduction">

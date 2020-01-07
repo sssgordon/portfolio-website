@@ -122,6 +122,10 @@ body {
   color: #999;
 }
 
+.u-margin-top-large {
+  margin-top: 12rem;
+}
+
 .button--text, .button--text:link, .button--text:visited {
   font-size: 2.5rem;
   text-decoration: none;
@@ -343,6 +347,30 @@ body {
   cursor: default;
   animation: fadeInBottom 1s ease-out;
   animation-fill-mode: forwards;
+}
+
+.home__welcome {
+  max-width: 70%;
+  margin: 0 auto;
+  cursor: default;
+  animation: fadeIn 3.5s ease-out;
+}
+.home__welcome--text {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-weight: 900;
+  -webkit-text-stroke-width: 3px;
+  line-height: 0.65;
+  text-transform: uppercase;
+}
+.home__welcome--text--1 {
+  font-size: 25rem;
+  letter-spacing: -1.4rem;
+}
+.home__welcome--text--2 {
+  font-size: 30rem;
+  letter-spacing: -1.3rem;
 }
 
 /*# sourceMappingURL=App.css.map */

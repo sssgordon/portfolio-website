@@ -1,0 +1,34 @@
+@use '../abstracts/variables' as v;
+
+.home {
+    &__welcome {
+        max-width: 70%;
+        margin: 0 auto;
+
+        cursor: default;
+
+        animation: fadeIn 3.5s ease-out;
+
+        &--text {
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+
+            font-weight: 900;
+            -webkit-text-stroke-width: 3px;
+
+            line-height: 0.65;
+            text-transform: uppercase;
+
+            &--1 {
+                font-size: 25rem;
+                letter-spacing: -1.4rem;
+            }
+
+            &--2 {
+                font-size: 30rem;
+                letter-spacing: -1.3rem;
+            }
+        }
+    }
+}
