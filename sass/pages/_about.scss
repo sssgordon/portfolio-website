@@ -4,9 +4,10 @@
     width: 90%;
     margin: 5rem auto;
 
-    border: 1px solid lightgrey;
+    // border: 1px solid lightgrey;
 
     &--left {
+        padding-top: 1rem;
         text-align: right;
 
         ul {
@@ -39,5 +40,10 @@
                 }
             }
         }
+    }
+
+    &--right {
+        width: 75%;
+        font-size: 3rem;
     }
 }

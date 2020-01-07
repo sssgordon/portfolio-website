@@ -56,11 +56,11 @@ body {
   font-weight: 400;
   /* font-size: 16px; */
   line-height: 1.7;
-  color: #000;
+  color: #777;
 }
 
 .stack {
-  font-size: 10.5rem;
+  font-size: 10.4rem;
   font-weight: 800;
   letter-spacing: -0.5rem;
   line-height: 1;
@@ -84,11 +84,16 @@ body {
   -webkit-text-stroke-color: #ffca00;
 }
 
+.footnote {
+  margin-top: 5rem;
+  font-size: 1.5rem;
+  color: #999;
+}
+
 .stack {
   width: 90%;
   margin: 0 auto;
   text-align: left;
-  border: 1px solid grey;
 }
 .stack__item {
   display: inline-block;
@@ -208,9 +213,9 @@ body {
 .about__introduction {
   width: 90%;
   margin: 5rem auto;
-  border: 1px solid lightgrey;
 }
 .about__introduction--left {
+  padding-top: 1rem;
   text-align: right;
 }
 .about__introduction--left ul {
@@ -237,6 +242,10 @@ body {
 }
 .about__introduction--left li a:hover::after, .about__introduction--left li:visited:hover::after {
   width: 100%;
+}
+.about__introduction--right {
+  width: 75%;
+  font-size: 3rem;
 }
 
 /*# sourceMappingURL=App.css.map */
