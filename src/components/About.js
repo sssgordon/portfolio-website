@@ -14,12 +14,18 @@ export default function about(props) {
                         <div className="about__introduction--left">
                             <ul>
                                 <li>
-                                    <a href="https://www.linkedin.com/in/so-gordon">
+                                    <a
+                                        href="https://www.linkedin.com/in/so-gordon"
+                                        target="_blank"
+                                    >
                                         LinkedIn
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://github.com/sssgordon">
+                                    <a
+                                        href="https://github.com/sssgordon"
+                                        target="_blank"
+                                    >
                                         GitHub
                                     </a>
                                 </li>
@@ -46,8 +52,8 @@ export default function about(props) {
                                 at 16, I made my blog snow with HTML and CSS. It
                                 was my first time seeing snow and my first
                                 digital winter. I hope you enjoyed my little
-                                origin story. I am always ready to meet up and
-                                be inspired by cool people.
+                                origin story. I am always ready to meet up with
+                                and be inspired by cool people.
                             </p>
                             <p className="footnote">&#9400; 2020 Gordon So</p>
                         </div>
