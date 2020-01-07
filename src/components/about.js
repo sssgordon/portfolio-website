@@ -46,7 +46,7 @@ export default function about(props) {
                                 origin story. I am always ready to meet up and
                                 be inspired by cool people.
                             </p>
-                            <p className="footnote">&#9400; Gordon So 2020</p>
+                            <p className="footnote">&#9400; 2020 Gordon So</p>
                         </div>
                     </div>
                 </div>
