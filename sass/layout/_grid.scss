@@ -1,0 +1,81 @@
+@use '../abstracts/mixins' as m;
+@use '../abstracts/variables' as v;
+
+.row {
+    // max-width: v.$grid-width; // 1140px grid is industry standard these days
+    max-width: 100%;
+    // background-color: #eee;
+    margin: 0 auto;
+
+    &:not(:last-child) {
+        // set margin-bottom EXCEPT the last-child
+        margin-bottom: v.$gutter-vertical;
+
+        // @include m.respond(tab-port) {
+        //     margin-bottom: v.$gutter-vertical-small;
+        // }
+    }
+
+    // @include m.respond(tab-port) {
+    //     max-width: 65rem;
+    //     padding: 0 3rem;
+    // }
+
+    // @include m.respond(phone) {
+    //     max-width: 50rem;
+    // }
+
+    @include m.clearfix; // clearfix hack for floats so that the height does not collapse
+
+    [class^="col-"] {
+        // "^=" means "start with"
+        // background-color: orangered;
+        float: left; // since we're floating, we need CLEARFIX hack
+
+        &:not(:last-child) {
+            // every col EXCEPT the last-child has margin-right as gutter
+            margin-right: v.$gutter-horizontal;
+
+            // @include m.respond(tab-port) {
+            //     margin-right: 0; // we don't need gutter when single column
+            //     margin-bottom: v.$gutter-vertical-small;
+            // }
+        }
+
+        // @include m.respond(tab-port) {
+        //     width: 100% !important; // so that the width below are overwritten
+        // }
+    }
+
+    .col-1-of-2 {
+        width: calc(
+            (100% - #{v.$gutter-horizontal}) / 2
+        ); // calc requires interpolation on sass v
+    }
+
+    .col-1-of-3 {
+        width: calc((100% - 2 * #{v.$gutter-horizontal}) / 3);
+    }
+
+    .col-2-of-3 {
+        width: calc(
+            2 * ((100% - 2 * #{v.$gutter-horizontal}) / 3) + #{v.$gutter-horizontal}
+        ); // the width is 2 times col-1-of-3 plus gutter
+    }
+
+    .col-1-of-4 {
+        width: calc((100% - 3 * #{v.$gutter-horizontal}) / 4);
+    }
+
+    .col-2-of-4 {
+        width: calc(
+            2 * ((100% - 3 * #{v.$gutter-horizontal}) / 4) + #{v.$gutter-horizontal}
+        );
+    }
+
+    .col-3-of-4 {
+        width: calc(
+            3 * ((100% - 3 * #{v.$gutter-horizontal}) / 4) + 2 * #{v.$gutter-horizontal}
+        );
+    }
+}
