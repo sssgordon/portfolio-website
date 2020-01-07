@@ -6,4 +6,7 @@
 @use 'base/typography';
 @use 'base/utilities';
 
+@use 'components/stack';
+
+@use 'pages/about';
 @use 'pages/home';

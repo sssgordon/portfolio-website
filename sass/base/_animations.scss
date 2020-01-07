@@ -1,0 +1,8 @@
+@keyframes crawling-line {
+    0% {
+        transform: translateZ(0);
+    }
+    100% {
+        transform: translate3d(-100vw, 0, 0);
+    }
+}

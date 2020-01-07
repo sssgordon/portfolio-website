@@ -1,0 +1,41 @@
+@use '../abstracts/variables' as v;
+
+body {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 400;
+    /* font-size: 16px; */
+    line-height: 1.7;
+    color: v.$color-black;
+}
+
+// about page
+.stack {
+    font-size: 11rem;
+    font-weight: 800;
+    letter-spacing: -0.5rem;
+    line-height: 1;
+}
+
+.primary {
+    &-fill {
+        color: v.$color-primary;
+    }
+
+    &-stroke {
+        color: transparent;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: v.$color-primary;
+    }
+}
+
+.secondary {
+    &-fill {
+        color: v.$color-secondary;
+    }
+
+    &-stroke {
+        color: transparent;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: v.$color-secondary;
+    }
+}
