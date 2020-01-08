@@ -36,6 +36,17 @@
         }
     }
 
+    &__arrow {
+        text-align: center;
+        color: v.$color-primary;
+        font-weight: 100;
+        font-size: 5rem;
+
+        opacity: 0;
+        animation: fadeIn 2s 1.3s ease;
+        animation-fill-mode: forwards;
+    }
+
     &__projects {
         width: 60%;
         margin: 0 auto;
@@ -45,7 +56,7 @@
 
     &__footnote {
         width: 60%;
-        padding-left: 2.55%;
+        padding-left: 4.3%;
         margin: 0 auto;
     }
 }

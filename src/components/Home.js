@@ -1,6 +1,11 @@
 import React from "react";
 
 import Header from "./Header";
+import outcryImg from "../assets/outcry_img.jpg";
+import natoursImg from "../assets/natours_img.jpg";
+import jottoImg from "../assets/jotto_img.jpg";
+import birchImg from "../assets/birch_img.jpg";
+import lisaImg from "../assets/lisa_img.jpg";
 
 export default function Home(props) {
     const pathname = props.location.pathname;
@@ -16,15 +21,15 @@ export default function Home(props) {
                     .
                 </span>
             </div>
-
-            <div className="home__projects u-margin-top-huge u-margin-bottom-medium">
+            <div className="home__arrow u-margin-top-medium">&darr;</div>
+            <div className="home__projects u-margin-top-medium u-margin-bottom-medium">
                 <div
                     className="square"
                     data-aos="fade"
                     data-aos-offset="0"
                     data-aos-delay="200"
-                    data-aos-duration="1400"
-                    data-aos-easing="ease-out"
+                    data-aos-duration="1300"
+                    data-aos-easing="ease"
                     data-aos-mirror="false"
                     data-aos-once="true"
                     data-aos-anchor-placement="center-bottom"
@@ -32,20 +37,7 @@ export default function Home(props) {
                     <div className="square__content">
                         <div className="square__table">
                             <div className="square__table-cell">
-                                <div className="square__video">
-                                    <video
-                                        className="square__video--content"
-                                        loop
-                                        autoplay
-                                        muted
-                                    >
-                                        <source
-                                            src="../assets/sham-shui-po-bg-vid-2.mp4"
-                                            type="video/mp4"
-                                        />
-                                        Your browser is not supported!
-                                    </video>
-                                </div>
+                                <img className="square__img" src={outcryImg} />
                             </div>
                         </div>
                     </div>
@@ -55,15 +47,17 @@ export default function Home(props) {
                     data-aos="fade"
                     data-aos-offset="0"
                     data-aos-delay="500"
-                    data-aos-duration="1400"
-                    data-aos-easing="ease-out"
+                    data-aos-duration="1300"
+                    data-aos-easing="ease"
                     data-aos-mirror="false"
                     data-aos-once="true"
                     data-aos-anchor-placement="center-bottom"
                 >
                     <div className="square__content">
                         <div className="square__table">
-                            <div className="square__table-cell"></div>
+                            <div className="square__table-cell">
+                                <img className="square__img" src={natoursImg} />
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -72,15 +66,17 @@ export default function Home(props) {
                     data-aos="fade"
                     data-aos-offset="0"
                     data-aos-delay="200"
-                    data-aos-duration="1400"
-                    data-aos-easing="ease-out"
+                    data-aos-duration="1300"
+                    data-aos-easing="ease"
                     data-aos-mirror="false"
                     data-aos-once="true"
                     data-aos-anchor-placement="center-bottom"
                 >
                     <div className="square__content">
                         <div className="square__table">
-                            <div className="square__table-cell"></div>
+                            <div className="square__table-cell">
+                                <img className="square__img" src={jottoImg} />
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -89,15 +85,17 @@ export default function Home(props) {
                     data-aos="fade"
                     data-aos-offset="0"
                     data-aos-delay="500"
-                    data-aos-duration="1400"
-                    data-aos-easing="ease-out"
+                    data-aos-duration="1300"
+                    data-aos-easing="ease"
                     data-aos-mirror="false"
                     data-aos-once="true"
                     data-aos-anchor-placement="center-bottom"
                 >
                     <div className="square__content">
                         <div className="square__table">
-                            <div className="square__table-cell"></div>
+                            <div className="square__table-cell">
+                                <img className="square__img" src={birchImg} />
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -106,15 +104,17 @@ export default function Home(props) {
                     data-aos="fade"
                     data-aos-offset="0"
                     data-aos-delay="200"
-                    data-aos-duration="1400"
-                    data-aos-easing="ease-out"
+                    data-aos-duration="1300"
+                    data-aos-easing="ease"
                     data-aos-mirror="false"
                     data-aos-once="true"
                     data-aos-anchor-placement="center-bottom"
                 >
                     <div className="square__content">
                         <div className="square__table">
-                            <div className="square__table-cell"></div>
+                            <div className="square__table-cell">
+                                <img className="square__img" src={lisaImg} />
+                            </div>
                         </div>
                     </div>
                 </div>
