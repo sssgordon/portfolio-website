@@ -134,6 +134,10 @@ body {
   margin-top: 6rem !important;
 }
 
+.u-margin-bottom-medium {
+  margin-bottom: 6rem !important;
+}
+
 .u-padding-left-medium {
   padding-left: 5rem !important;
 }
@@ -427,6 +431,16 @@ body {
 }
 .home__projects {
   width: 60%;
+  margin: 0 auto;
+}
+.home__projects::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.home__footnote {
+  width: 60%;
+  padding-left: 2.55%;
   margin: 0 auto;
 }
 

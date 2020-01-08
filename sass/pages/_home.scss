@@ -39,5 +39,13 @@
     &__projects {
         width: 60%;
         margin: 0 auto;
+
+        @include m.clearfix;
+    }
+
+    &__footnote {
+        width: 60%;
+        padding-left: 2.55%;
+        margin: 0 auto;
     }
 }

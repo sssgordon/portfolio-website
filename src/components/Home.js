@@ -17,7 +17,7 @@ export default function Home(props) {
                 </span>
             </div>
 
-            <div className="home__projects u-margin-top-huge">
+            <div className="home__projects u-margin-top-huge u-margin-bottom-medium">
                 <div
                     className="square"
                     data-aos="fade"
@@ -118,6 +118,9 @@ export default function Home(props) {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="home__footnote">
+                <div className="footnote">&#9400; 2020 Gordon So</div>
             </div>
         </div>
     );
