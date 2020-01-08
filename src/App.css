@@ -123,7 +123,11 @@ body {
 }
 
 .u-margin-top-large {
-  margin-top: 12rem;
+  margin-top: 12rem !important;
+}
+
+.u-margin-top-medium {
+  margin-top: 5rem !important;
 }
 
 .button--text, .button--text:link, .button--text:visited {
@@ -350,8 +354,7 @@ body {
 }
 
 .home__welcome {
-  max-width: 70%;
-  margin: 0 auto;
+  width: 100%;
   cursor: default;
   animation: fadeIn 3.5s ease-out;
 }
@@ -359,6 +362,7 @@ body {
   display: inline-block;
   margin: 0;
   padding: 0;
+  text-align: left;
   font-weight: 900;
   -webkit-text-stroke-width: 3px;
   line-height: 0.65;
@@ -371,6 +375,33 @@ body {
 .home__welcome--text--2 {
   font-size: 30rem;
   letter-spacing: -1.3rem;
+}
+.home__projects {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.row--home {
+  max-width: 100%;
+  margin: 0 auto;
+}
+.row--home:not(:last-child) {
+  margin-bottom: 8rem;
+}
+.row--home::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row--home [class^=col-] {
+  background-color: orangered;
+  float: left;
+}
+.row--home [class^=col-]:not(:last-child) {
+  margin-right: 8rem;
+}
+.row--home .col-1-of-2 {
+  width: calc((100% - 8rem) / 2);
 }
 
 /*# sourceMappingURL=App.css.map */

@@ -1,18 +1,22 @@
 @use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as m;
 
 .home {
     &__welcome {
-        max-width: 70%;
-        margin: 0 auto;
+        width: 100%;
+        // margin: 0 auto;
 
         cursor: default;
 
         animation: fadeIn 3.5s ease-out;
 
+        // text-align: center;
+
         &--text {
             display: inline-block;
             margin: 0;
             padding: 0;
+            text-align: left;
 
             font-weight: 900;
             -webkit-text-stroke-width: 3px;
@@ -30,5 +34,10 @@
                 letter-spacing: -1.3rem;
             }
         }
+    }
+
+    &__projects {
+        width: 60%;
+        margin: 0 auto;
     }
 }
