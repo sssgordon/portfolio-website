@@ -423,9 +423,10 @@ body {
 }
 .home__arrow {
   text-align: center;
-  color: #00b09d;
+  color: #d70075;
   font-weight: 100;
   font-size: 5rem;
+  cursor: default;
   opacity: 0;
   animation: fadeIn 2s 1.3s ease;
   animation-fill-mode: forwards;

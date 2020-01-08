@@ -38,9 +38,11 @@
 
     &__arrow {
         text-align: center;
-        color: v.$color-primary;
+        color: v.$color-tertiary;
         font-weight: 100;
         font-size: 5rem;
+
+        cursor: default;
 
         opacity: 0;
         animation: fadeIn 2s 1.3s ease;
