@@ -122,6 +122,10 @@ body {
   color: #999;
 }
 
+.u-margin-top-huge {
+  margin-top: 20rem !important;
+}
+
 .u-margin-top-large {
   margin-top: 12rem !important;
 }
@@ -306,6 +310,19 @@ body {
 .square__table-cell {
   display: table-cell;
   vertical-align: middle;
+}
+.square__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.square__video--content {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .header {

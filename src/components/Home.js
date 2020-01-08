@@ -17,39 +17,104 @@ export default function Home(props) {
                 </span>
             </div>
 
-            <div className="home__projects u-margin-top-medium">
-                <div class="square">
-                    <div class="square__content">
-                        <div class="square__table">
-                            <div class="square__table-cell"></div>
+            <div className="home__projects u-margin-top-huge">
+                <div
+                    className="square"
+                    data-aos="fade"
+                    data-aos-offset="0"
+                    data-aos-delay="200"
+                    data-aos-duration="1400"
+                    data-aos-easing="ease-out"
+                    data-aos-mirror="false"
+                    data-aos-once="true"
+                    data-aos-anchor-placement="center-bottom"
+                >
+                    <div className="square__content">
+                        <div className="square__table">
+                            <div className="square__table-cell">
+                                <div className="square__video">
+                                    <video
+                                        className="square__video--content"
+                                        loop
+                                        autoplay
+                                        muted
+                                    >
+                                        <source
+                                            src="../assets/sham-shui-po-bg-vid-2.mp4"
+                                            type="video/mp4"
+                                        />
+                                        Your browser is not supported!
+                                    </video>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="square">
-                    <div class="square__content">
-                        <div class="square__table">
-                            <div class="square__table-cell"></div>
+                <div
+                    className="square"
+                    data-aos="fade"
+                    data-aos-offset="0"
+                    data-aos-delay="500"
+                    data-aos-duration="1400"
+                    data-aos-easing="ease-out"
+                    data-aos-mirror="false"
+                    data-aos-once="true"
+                    data-aos-anchor-placement="center-bottom"
+                >
+                    <div className="square__content">
+                        <div className="square__table">
+                            <div className="square__table-cell"></div>
                         </div>
                     </div>
                 </div>
-                <div class="square">
-                    <div class="square__content">
-                        <div class="square__table">
-                            <div class="square__table-cell"></div>
+                <div
+                    className="square"
+                    data-aos="fade"
+                    data-aos-offset="0"
+                    data-aos-delay="200"
+                    data-aos-duration="1400"
+                    data-aos-easing="ease-out"
+                    data-aos-mirror="false"
+                    data-aos-once="true"
+                    data-aos-anchor-placement="center-bottom"
+                >
+                    <div className="square__content">
+                        <div className="square__table">
+                            <div className="square__table-cell"></div>
                         </div>
                     </div>
                 </div>
-                <div class="square">
-                    <div class="square__content">
-                        <div class="square__table">
-                            <div class="square__table-cell"></div>
+                <div
+                    className="square"
+                    data-aos="fade"
+                    data-aos-offset="0"
+                    data-aos-delay="500"
+                    data-aos-duration="1400"
+                    data-aos-easing="ease-out"
+                    data-aos-mirror="false"
+                    data-aos-once="true"
+                    data-aos-anchor-placement="center-bottom"
+                >
+                    <div className="square__content">
+                        <div className="square__table">
+                            <div className="square__table-cell"></div>
                         </div>
                     </div>
                 </div>
-                <div class="square">
-                    <div class="square__content">
-                        <div class="square__table">
-                            <div class="square__table-cell"></div>
+                <div
+                    className="square"
+                    data-aos="fade"
+                    data-aos-offset="0"
+                    data-aos-delay="200"
+                    data-aos-duration="1400"
+                    data-aos-easing="ease-out"
+                    data-aos-mirror="false"
+                    data-aos-once="true"
+                    data-aos-anchor-placement="center-bottom"
+                >
+                    <div className="square__content">
+                        <div className="square__table">
+                            <div className="square__table-cell"></div>
                         </div>
                     </div>
                 </div>

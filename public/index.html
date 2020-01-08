@@ -10,6 +10,10 @@
             content="Web site created using create-react-app"
         />
         <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet"
+        />
         <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -42,5 +46,20 @@
 
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
-    --></body>
+      
+    -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+                startEvent: "DOMContentLoaded", // name of the event dispatched on the document, that AOS should initialize on
+                initClassName: "aos-init", // class applied after initialization
+                animatedClassName: "aos-animate", // class applied on animation
+                useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+                disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+                debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+                throttleDelay: 99 // the delay on throttle used while scrolling the page (advanced)
+            });
+        </script>
+    </body>
 </html>
