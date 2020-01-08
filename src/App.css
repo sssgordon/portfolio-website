@@ -123,11 +123,15 @@ body {
 }
 
 .u-margin-top-large {
-  margin-top: 12rem !important;
+  margin-top: 10rem !important;
 }
 
 .u-margin-top-medium {
   margin-top: 5rem !important;
+}
+
+.u-padding-left-medium {
+  padding-left: 5rem !important;
 }
 
 .button--text, .button--text:link, .button--text:visited {
@@ -279,7 +283,7 @@ body {
 .header {
   width: 100vw;
   height: 10rem;
-  padding: 0 10rem;
+  padding: 0 8rem;
   position: fixed;
   top: 0;
   left: 0;
@@ -379,29 +383,6 @@ body {
 .home__projects {
   width: 60%;
   margin: 0 auto;
-}
-
-.row--home {
-  max-width: 100%;
-  margin: 0 auto;
-}
-.row--home:not(:last-child) {
-  margin-bottom: 8rem;
-}
-.row--home::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.row--home [class^=col-] {
-  background-color: orangered;
-  float: left;
-}
-.row--home [class^=col-]:not(:last-child) {
-  margin-right: 8rem;
-}
-.row--home .col-1-of-2 {
-  width: calc((100% - 8rem) / 2);
 }
 
 /*# sourceMappingURL=App.css.map */

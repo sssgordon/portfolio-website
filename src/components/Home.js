@@ -7,11 +7,11 @@ export default function Home(props) {
     return (
         <div className="home u-margin-top-large">
             <Header pathname={pathname} />
-            <div className="home__welcome">
+            <div className="home__welcome u-padding-left-medium">
                 <span className="home__welcome--text home__welcome--text--1 primary-stroke">
                     Wish you a fulfilling&nbsp;
                     <span className="home__welcome--text home__welcome--text--2 secondary-stroke">
-                        2020s
+                        2020
                     </span>
                     .
                 </span>
