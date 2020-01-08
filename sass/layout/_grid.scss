@@ -79,3 +79,32 @@
         );
     }
 }
+
+// SQUARE
+.square {
+    float: left;
+    position: relative;
+    width: 35%;
+    padding-bottom: 35%; /* = width for a 1:1 aspect ratio */
+    margin: 5%;
+    background-color: #1e1e1e;
+    overflow: hidden;
+
+    &__content {
+        position: absolute;
+        height: 90%; /* = 100% - 2*5% padding */
+        width: 90%; /* = 100% - 2*5% padding */
+        padding: 5%;
+    }
+
+    &__table {
+        display: table;
+        width: 100%;
+        height: 100%;
+    }
+
+    &__table-cell {
+        display: table-cell;
+        vertical-align: middle;
+    }
+}

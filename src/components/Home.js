@@ -17,7 +17,43 @@ export default function Home(props) {
                 </span>
             </div>
 
-            <div className="home__projects"></div>
+            <div className="home__projects u-margin-top-medium">
+                <div class="square">
+                    <div class="square__content">
+                        <div class="square__table">
+                            <div class="square__table-cell"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="square">
+                    <div class="square__content">
+                        <div class="square__table">
+                            <div class="square__table-cell"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="square">
+                    <div class="square__content">
+                        <div class="square__table">
+                            <div class="square__table-cell"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="square">
+                    <div class="square__content">
+                        <div class="square__table">
+                            <div class="square__table-cell"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="square">
+                    <div class="square__content">
+                        <div class="square__table">
+                            <div class="square__table-cell"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }

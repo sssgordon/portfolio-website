@@ -123,11 +123,11 @@ body {
 }
 
 .u-margin-top-large {
-  margin-top: 10rem !important;
+  margin-top: 12rem !important;
 }
 
 .u-margin-top-medium {
-  margin-top: 5rem !important;
+  margin-top: 6rem !important;
 }
 
 .u-padding-left-medium {
@@ -278,6 +278,34 @@ body {
 }
 .row .col-3-of-4 {
   width: calc( 3 * ((100% - 3 * 8rem) / 4) + 2 * 8rem );
+}
+
+.square {
+  float: left;
+  position: relative;
+  width: 35%;
+  padding-bottom: 35%;
+  /* = width for a 1:1 aspect ratio */
+  margin: 5%;
+  background-color: #1e1e1e;
+  overflow: hidden;
+}
+.square__content {
+  position: absolute;
+  height: 90%;
+  /* = 100% - 2*5% padding */
+  width: 90%;
+  /* = 100% - 2*5% padding */
+  padding: 5%;
+}
+.square__table {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.square__table-cell {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .header {
