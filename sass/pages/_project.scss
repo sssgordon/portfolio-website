@@ -1,0 +1,32 @@
+@use '../abstracts/variables' as v;
+
+.project {
+    width: 80%;
+    margin: 0 auto;
+    // background-color: orangered;
+
+    &__heading {
+        margin-bottom: 10rem;
+
+        // border-left: 1px solid red;
+    }
+
+    &__video {
+        // display: block;
+        width: 100%;
+        // width: 100vw;
+        // margin-left: -10vw; // cancel the margin of the parent
+        height: auto;
+        // overflow: hidden;
+
+        margin-bottom: 6rem;
+
+        &--content {
+            // width: 100%;
+            width: 100vw;
+            margin-left: -10vw;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+}

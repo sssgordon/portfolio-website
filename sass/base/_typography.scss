@@ -45,3 +45,27 @@ body {
     font-size: 1.5rem;
     color: v.$color-grey-dark-2;
 }
+
+.heading-primary {
+    font-size: 13rem;
+    font-weight: 800;
+    -webkit-text-stroke-width: 3px;
+    line-height: 1;
+    text-transform: uppercase;
+
+    margin-bottom: 3rem;
+    margin-left: -0.04em; // delete white space before first letter
+
+    backface-visibility: hidden;
+}
+
+.heading-secondary {
+}
+
+.heading-tertiary {
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+
+    margin-bottom: 2rem;
+}

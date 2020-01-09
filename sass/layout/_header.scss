@@ -14,6 +14,8 @@
     // background-color: v.$color-white;
     // border-bottom: 1px solid v.$color-grey-light-1;
 
+    backface-visibility: hidden;
+
     cursor: default;
 
     &__container {
@@ -25,7 +27,7 @@
     &__title {
         font-size: 6rem;
         font-weight: 200;
-        letter-spacing: 4.5px;
+        letter-spacing: 0.45rem;
         color: v.$color-secondary;
         position: absolute;
         left: 0;
