@@ -78,7 +78,11 @@ export default function Outcry(props) {
                     JavaScript, React, Redux and Google Dialogflow for this
                     project. You can learn more about the technical features by
                     visiting the{" "}
-                    <a href="#" className="link">
+                    <a
+                        href="https://github.com/sssgordon/project-outcry-client"
+                        target="_blank"
+                        className="link"
+                    >
                         repository
                     </a>{" "}
                     on GitHub.
