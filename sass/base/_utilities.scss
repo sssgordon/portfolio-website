@@ -1,13 +1,23 @@
-.u-margin-top-huge {
-    margin-top: 20rem !important;
+@use '../abstracts/variables' as v;
+
+.u-margin-top-medium {
+    margin-top: 6rem !important;
 }
 
 .u-margin-top-large {
     margin-top: 12rem !important;
 }
 
-.u-margin-top-medium {
-    margin-top: 6rem !important;
+.u-margin-top-huge {
+    margin-top: 20rem !important;
+}
+
+.u-margin-bottom-tiny {
+    margin-bottom: 1rem !important;
+}
+
+.u-margin-bottom-small {
+    margin-bottom: 3rem !important;
 }
 
 .u-margin-bottom-medium {
@@ -19,5 +29,13 @@
 }
 
 .filter-grayscale {
-    filter: grayscale(100%);
+    filter: grayscale(80%);
+}
+
+.primary-background {
+    background-color: v.$color-primary;
+}
+
+.secondary-background {
+    background-color: v.$color-secondary;
 }

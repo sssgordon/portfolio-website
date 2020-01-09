@@ -31,3 +31,28 @@
         }
     }
 }
+
+.link {
+    &:link,
+    &:visited {
+        display: inline-block;
+        color: v.$color-tertiary;
+        text-decoration: none;
+        padding-bottom: 0;
+        line-height: 1.4;
+
+        &::after {
+            content: "";
+            display: block;
+            width: 0;
+            height: 0.25rem;
+            background: v.$color-tertiary;
+            padding-bottom: 0;
+            transition: width 0.3s;
+        }
+
+        &:hover::after {
+            width: 100%;
+        }
+    }
+}
