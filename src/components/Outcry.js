@@ -1,17 +1,16 @@
 import React from "react";
 import Header from "./Header";
 
-import video from "../assets/outcry_video.mp4";
+import video_mp4 from "../assets/outcry_video.mp4";
+import video_webm from "../assets/outcry_video.webm";
 import outcry_1 from "../assets/outcry_1.png";
 import outcry_2 from "../assets/outcry_2.png";
 
 export default function Outcry(props) {
-    // const pathname = props.location.pathname;
+    const pathname = props.location.pathname;
     return (
         <div className="project u-margin-top-large">
-            <Header
-            // pathname={pathname}
-            />
+            <Header pathname={pathname} />
             <div className="project__heading">
                 <h1 className="project__heading--title heading-primary secondary-stroke">
                     Project Outcry
@@ -28,7 +27,8 @@ export default function Outcry(props) {
                     muted
                     preload="metadata"
                 >
-                    <source src={video} type="video/mp4" />
+                    <source src={video_mp4} type="video/mp4" />
+                    <source src={video_webm} type="video/webm" />
                     Your browser is not supported!
                 </video>
             </div>

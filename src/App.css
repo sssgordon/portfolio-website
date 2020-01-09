@@ -161,6 +161,10 @@ body {
   margin-bottom: 2rem;
 }
 
+.u-margin-top-small {
+  margin-top: 3rem !important;
+}
+
 .u-margin-top-medium {
   margin-top: 6rem !important;
 }
@@ -560,7 +564,7 @@ body {
   object-fit: cover;
 }
 .project__description {
-  margin-bottom: 6rem;
+  margin-bottom: 20rem;
 }
 .project__image {
   width: 100%;
