@@ -50,9 +50,9 @@ export default function Jotto(props) {
                     Jotto is a word game where the player tries to guess the
                     five-letter secret word. After every attempt, the app will
                     tell the player the amount of letters in the guessed word
-                    matching the secret word. If the secret word is "party" and
-                    the guessed word is "train", the app will tell you three
-                    letters are matching.{" "}
+                    matching the secret word. Let's say the secret word is
+                    "party" and the guessed word is "train", the app will tell
+                    you three letters are matching.{" "}
                     <a
                         href="http://obscure-fortress-88963.herokuapp.com"
                         target="_blank"
