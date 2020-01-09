@@ -54,7 +54,12 @@ export default function Home(props) {
                     <div className="square__content">
                         <div className="square__table">
                             <div className="square__table-cell">
-                                <img className="square__img" src={natoursImg} />
+                                <Link to="natours">
+                                    <img
+                                        className="square__img"
+                                        src={natoursImg}
+                                    />
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -69,7 +74,12 @@ export default function Home(props) {
                     <div className="square__content">
                         <div className="square__table">
                             <div className="square__table-cell">
-                                <img className="square__img" src={jottoImg} />
+                                <Link to="/jotto">
+                                    <img
+                                        className="square__img"
+                                        src={jottoImg}
+                                    />
+                                </Link>
                             </div>
                         </div>
                     </div>

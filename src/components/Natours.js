@@ -8,12 +8,10 @@ import natours_2 from "../assets/natours_2.png";
 import natours_3 from "../assets/natours_3.png";
 
 export default function Natours(props) {
-    // const pathname = props.location.pathname;
+    const pathname = props.location.pathname;
     return (
         <div className="project u-margin-top-large">
-            <Header
-            // pathname={pathname}
-            />
+            <Header pathname={pathname} />
             <div className="project__heading">
                 <h1 className="project__heading--title heading-primary primary-stroke">
                     Natours
@@ -96,7 +94,7 @@ export default function Natours(props) {
             <img
                 className="project__image u-margin-bottom-medium"
                 src={natours_1}
-                alt="landing page"
+                alt="header"
                 data-aos="fade"
                 data-aos-delay="0"
                 data-aos-duration="1300"
@@ -105,7 +103,7 @@ export default function Natours(props) {
             <img
                 className="project__image u-margin-bottom-medium"
                 src={natours_2}
-                alt="user details page"
+                alt="tours section"
                 data-aos="fade"
                 data-aos-delay="0"
                 data-aos-duration="1300"
@@ -114,7 +112,7 @@ export default function Natours(props) {
             <img
                 className="project__image"
                 src={natours_3}
-                alt="user details page"
+                alt="navigation popup"
                 data-aos="fade"
                 data-aos-delay="0"
                 data-aos-duration="1300"

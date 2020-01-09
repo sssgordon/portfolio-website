@@ -47,5 +47,13 @@
 
     &__image {
         width: 100%;
+
+        &--main {
+            margin-bottom: 6rem;
+
+            opacity: 0;
+            animation: fadeIn 2s 1.8s ease-out;
+            animation-fill-mode: forwards;
+        }
     }
 }
