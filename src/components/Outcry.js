@@ -13,10 +13,10 @@ export default function Outcry(props) {
             // pathname={pathname}
             />
             <div className="project__heading">
-                <h1 className="heading-primary secondary-stroke">
+                <h1 className="project__heading--title heading-primary secondary-stroke">
                     Project Outcry
                 </h1>
-                <h3 className="heading-secondary secondary-fill">
+                <h3 className="project__heading--description heading-secondary secondary-fill">
                     Full-stack web app<br></br>Google Assistant
                 </h3>
             </div>
@@ -33,11 +33,30 @@ export default function Outcry(props) {
                 </video>
             </div>
             <div className="project__description">
-                <p className="tagline secondary-fill">
+                <p
+                    className="tagline secondary-fill"
+                    data-aos="fade"
+                    data-aos-delay="0"
+                    data-aos-duration="1500"
+                    data-aos-easing="ease"
+                >
                     Ensuring protestors’ right to legal counsel
                 </p>
-                <div className="divider secondary-background u-margin-bottom-small"></div>
-                <p className="paragraph">
+                <div
+                    className="divider secondary-background u-margin-bottom-small"
+                    data-aos="extendRight"
+                    data-aos-delay="800"
+                    data-aos-duration="1400"
+                    data-aos-easing="ease-out-quart"
+                ></div>
+                <p
+                    className="paragraph"
+                    data-aos="fade"
+                    data-aos-delay="1300"
+                    data-aos-duration="1300"
+                    data-aos-easing="ease"
+                    data-aos-anchor=".divider"
+                >
                     Project Outcry is an app made for Hong Kong protestors to
                     inform their lawyers the moment they get arrested. Before
                     taking to the streets, they would sign up on the website and
@@ -46,7 +65,14 @@ export default function Outcry(props) {
                     Project Outcry will immediately send an email to notify the
                     user's lawyer of the incident.
                 </p>
-                <p className="paragraph">
+                <p
+                    className="paragraph"
+                    data-aos="fade"
+                    data-aos-delay="1300"
+                    data-aos-duration="1300"
+                    data-aos-easing="ease"
+                    data-aos-anchor=".divider"
+                >
                     Built for a 4-day Hackathon at Codaisseur, this app won the
                     second-most-favorited app by popular vote. I used
                     JavaScript, React, Redux and Google Dialogflow for this
@@ -62,11 +88,19 @@ export default function Outcry(props) {
                 className="project__image u-margin-bottom-medium"
                 src={outcry_1}
                 alt="landing page"
+                data-aos="fade"
+                data-aos-delay="0"
+                data-aos-duration="1300"
+                data-aos-easing="ease"
             />
             <img
                 className="project__image"
                 src={outcry_2}
                 alt="user details page"
+                data-aos="fade"
+                data-aos-delay="0"
+                data-aos-duration="1300"
+                data-aos-easing="ease"
             />
             <div className="footnote">&#9400; 2020 Gordon So</div>
         </div>

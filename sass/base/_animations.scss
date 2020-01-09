@@ -40,3 +40,14 @@
         transform: translate(0);
     }
 }
+
+// AOS
+
+[data-aos="extendRight"] {
+    width: 0;
+    transition-property: width;
+
+    &.aos-animate {
+        width: 100%;
+    }
+}

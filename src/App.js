@@ -12,10 +12,9 @@ function App(props) {
     return (
         <div className="app">
             <ScrollToTop />
-            <Outcry />
-            {/* <Route exact path="/project-outcry" component={Outcry} /> */}
-            {/* <Route exact path="/" component={Home} />
-            <Route exact path="/about" component={About} /> */}
+            <Route exact path="/project-outcry" component={Outcry} />
+            <Route exact path="/" component={Home} />
+            <Route exact path="/about" component={About} />
         </div>
     );
 }

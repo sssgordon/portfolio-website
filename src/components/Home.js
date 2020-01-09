@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import Header from "./Header";
 import outcryImg from "../assets/outcry_img.jpg";
@@ -26,18 +27,19 @@ export default function Home(props) {
                 <div
                     className="square"
                     data-aos="fade"
-                    data-aos-offset="0"
                     data-aos-delay="200"
                     data-aos-duration="1300"
                     data-aos-easing="ease"
-                    data-aos-mirror="false"
-                    data-aos-once="true"
-                    data-aos-anchor-placement="center-bottom"
                 >
                     <div className="square__content">
                         <div className="square__table">
                             <div className="square__table-cell">
-                                <img className="square__img" src={outcryImg} />
+                                <Link to="/project-outcry">
+                                    <img
+                                        className="square__img"
+                                        src={outcryImg}
+                                    />
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -45,13 +47,9 @@ export default function Home(props) {
                 <div
                     className="square"
                     data-aos="fade"
-                    data-aos-offset="0"
                     data-aos-delay="500"
                     data-aos-duration="1300"
                     data-aos-easing="ease"
-                    data-aos-mirror="false"
-                    data-aos-once="true"
-                    data-aos-anchor-placement="center-bottom"
                 >
                     <div className="square__content">
                         <div className="square__table">
@@ -64,13 +62,9 @@ export default function Home(props) {
                 <div
                     className="square"
                     data-aos="fade"
-                    data-aos-offset="0"
                     data-aos-delay="200"
                     data-aos-duration="1300"
                     data-aos-easing="ease"
-                    data-aos-mirror="false"
-                    data-aos-once="true"
-                    data-aos-anchor-placement="center-bottom"
                 >
                     <div className="square__content">
                         <div className="square__table">
@@ -83,13 +77,9 @@ export default function Home(props) {
                 <div
                     className="square"
                     data-aos="fade"
-                    data-aos-offset="0"
                     data-aos-delay="500"
                     data-aos-duration="1300"
                     data-aos-easing="ease"
-                    data-aos-mirror="false"
-                    data-aos-once="true"
-                    data-aos-anchor-placement="center-bottom"
                 >
                     <div className="square__content">
                         <div className="square__table">
@@ -102,13 +92,9 @@ export default function Home(props) {
                 <div
                     className="square"
                     data-aos="fade"
-                    data-aos-offset="0"
                     data-aos-delay="200"
                     data-aos-duration="1300"
                     data-aos-easing="ease"
-                    data-aos-mirror="false"
-                    data-aos-once="true"
-                    data-aos-anchor-placement="center-bottom"
                 >
                     <div className="square__content">
                         <div className="square__table">

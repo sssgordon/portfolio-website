@@ -8,7 +8,15 @@
     &__heading {
         margin-bottom: 10rem;
 
-        // border-left: 1px solid red;
+        &--title {
+            animation: fadeIn 2.3s ease-out;
+        }
+
+        &--description {
+            opacity: 0;
+            animation: fadeIn 1.8s 1s ease-out;
+            animation-fill-mode: forwards;
+        }
     }
 
     &__video {
@@ -19,6 +27,10 @@
         // overflow: hidden;
 
         margin-bottom: 6rem;
+
+        opacity: 0;
+        animation: fadeIn 2s 1.8s ease-out;
+        animation-fill-mode: forwards;
 
         &--content {
             // width: 100%;

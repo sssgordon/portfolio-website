@@ -52,6 +52,14 @@ ORDER: Base + typography > general layout + grid > page layout > components
     transform: translate(0);
   }
 }
+[data-aos=extendRight] {
+  width: 0;
+  transition-property: width;
+}
+[data-aos=extendRight].aos-animate {
+  width: 100%;
+}
+
 *,
 *::after,
 *::before {
@@ -240,7 +248,6 @@ body {
 
 .divider {
   height: 2px;
-  width: 100%;
 }
 
 .stack {
@@ -530,10 +537,21 @@ body {
 .project__heading {
   margin-bottom: 10rem;
 }
+.project__heading--title {
+  animation: fadeIn 2.3s ease-out;
+}
+.project__heading--description {
+  opacity: 0;
+  animation: fadeIn 1.8s 1s ease-out;
+  animation-fill-mode: forwards;
+}
 .project__video {
   width: 100%;
   height: auto;
   margin-bottom: 6rem;
+  opacity: 0;
+  animation: fadeIn 2s 1.8s ease-out;
+  animation-fill-mode: forwards;
 }
 .project__video--content {
   width: 100vw;
