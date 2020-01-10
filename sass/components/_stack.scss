@@ -4,18 +4,13 @@
     width: 90%;
     margin: 0 auto;
 
-    font-size: 10.4rem;
+    font-size: 9rem;
     font-weight: 800;
     letter-spacing: -0.5rem;
     line-height: 1;
     text-align: left;
 
     cursor: default;
-
-    @include m.respond(tab-port) {
-        font-size: 9rem;
-        letter-spacing: -0.3rem;
-    }
 
     // border: 1px solid grey;
 
