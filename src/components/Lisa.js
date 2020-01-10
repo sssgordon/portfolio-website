@@ -91,8 +91,10 @@ export default function Lisa(props) {
                     . In Codaisseur this is a "real-world project" that is
                     passed on from one class to another, so that students get to
                     practice improving upon an existing code base. I am part of
-                    the fourth group working on the project. Details are
-                    available in the{" "}
+                    the fourth group working on the project. This is a
+                    full-stack application built with JavaScript, React, Redux,
+                    Express, Sequelize, PostgreSQL and Google Dialogflow.
+                    Details are available in the{" "}
                     <a
                         href="https://github.com/Official-Codaisseur-Graduate/lisa-client"
                         target="_blank"
