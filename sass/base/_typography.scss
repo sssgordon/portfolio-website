@@ -60,7 +60,7 @@ body {
 
     @include m.respond(phone) {
         font-size: 10rem;
-        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-width: 1.5px;
     }
 }
 
