@@ -3,6 +3,7 @@ import Header from "./Header";
 
 import video_mp4 from "../assets/lisa_video.mp4";
 import video_webm from "../assets/lisa_video.webm";
+import lisa_1 from "../assets/lisa_1.png";
 
 export default function Lisa(props) {
     // const pathname = props.location.pathname;
@@ -71,7 +72,7 @@ export default function Lisa(props) {
                     data-aos-easing="ease"
                     data-aos-anchor=".divider"
                 >
-                    This is a collaborative project between{" "}
+                    This is an ongoing collaborative project between{" "}
                     <a
                         href="https://codaisseur.com/"
                         target="_blank"
@@ -87,9 +88,10 @@ export default function Lisa(props) {
                     >
                         Vitalis
                     </a>
-                    . In Codaisseur this is a ongoing real-world project that is
+                    . In Codaisseur this is a "real-world project" that is
                     passed on from one class to another, so that students get to
-                    practice improving upon an existing code base. Details are
+                    practice improving upon an existing code base. I am part of
+                    the fourth group working on the project. Details are
                     available in the{" "}
                     <a
                         href="https://github.com/Official-Codaisseur-Graduate/lisa-client"
@@ -101,6 +103,17 @@ export default function Lisa(props) {
                     on GitHub.
                 </p>
             </div>
+            <img
+                className="project__image"
+                src={lisa_1}
+                alt="create menu page"
+                data-aos="fade"
+                data-aos-delay="0"
+                data-aos-duration="1300"
+                data-aos-easing="ease"
+                data-aos-anchor-placement="center-bottom"
+            />
+            <div className="footnote">&#9400; 2020 Gordon So</div>
         </div>
     );
 }
