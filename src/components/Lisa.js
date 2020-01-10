@@ -47,7 +47,7 @@ export default function Lisa(props) {
                     className="divider secondary-background u-margin-bottom-small"
                     data-aos="extendRight"
                     data-aos-delay="800"
-                    data-aos-duration="1400"
+                    data-aos-duration="1200"
                     data-aos-easing="ease-out-quart"
                 ></div>
                 <p
