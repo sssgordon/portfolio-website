@@ -47,9 +47,10 @@ export default function about(props) {
                         <div
                             className="about__introduction--right"
                             data-aos="fade"
-                            data-aos-delay="200"
+                            data-aos-delay="0"
                             data-aos-duration="1300"
                             data-aos-easing="ease-out"
+                            data-aos-anchor-placement=".about__introduction--left"
                         >
                             <p>
                                 My name is Gordon So. <br></br>I am a Canadian
