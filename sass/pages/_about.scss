@@ -22,6 +22,7 @@
 
         li {
             font-size: 3rem;
+            font-weight: 300;
             margin-bottom: 0.5rem;
 
             a,
@@ -35,7 +36,7 @@
                     content: "";
                     display: block;
                     width: 0;
-                    height: 0.25rem;
+                    height: 0.2rem;
                     background: v.$color-tertiary;
                     transition: width 0.3s;
                 }
@@ -50,6 +51,7 @@
     &--right {
         width: 75%;
         font-size: 3rem;
+        font-weight: 300;
         opacity: 0;
 
         cursor: default;

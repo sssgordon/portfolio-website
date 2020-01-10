@@ -146,7 +146,7 @@ body {
 
 .heading-secondary {
   font-size: 2rem;
-  font-weight: 500;
+  font-weight: 400;
   text-transform: uppercase;
   margin-bottom: 2rem;
   cursor: default;
@@ -160,6 +160,7 @@ body {
 
 .paragraph {
   font-size: 2.5rem;
+  font-weight: 300;
   cursor: default;
 }
 .paragraph:not(:last-child) {
@@ -241,12 +242,13 @@ body {
   text-decoration: none;
   padding-bottom: 0;
   line-height: 1.4;
+  font-weight: 300;
 }
 .link:link::after, .link:visited::after {
   content: "";
   display: block;
   width: 0;
-  height: 0.25rem;
+  height: 0.2rem;
   background: #d70075;
   padding-bottom: 0;
   transition: width 0.3s;
@@ -463,6 +465,7 @@ body {
 }
 .about__introduction--left li {
   font-size: 3rem;
+  font-weight: 300;
   margin-bottom: 0.5rem;
 }
 .about__introduction--left li a, .about__introduction--left li:visited {
@@ -475,7 +478,7 @@ body {
   content: "";
   display: block;
   width: 0;
-  height: 0.25rem;
+  height: 0.2rem;
   background: #d70075;
   transition: width 0.3s;
 }
@@ -485,6 +488,7 @@ body {
 .about__introduction--right {
   width: 75%;
   font-size: 3rem;
+  font-weight: 300;
   opacity: 0;
   cursor: default;
   animation: fadeInBottom 1s ease-out;

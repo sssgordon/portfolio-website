@@ -40,12 +40,13 @@
         text-decoration: none;
         padding-bottom: 0;
         line-height: 1.4;
+        font-weight: 300;
 
         &::after {
             content: "";
             display: block;
             width: 0;
-            height: 0.25rem;
+            height: 0.2rem;
             background: v.$color-tertiary;
             padding-bottom: 0;
             transition: width 0.3s;
