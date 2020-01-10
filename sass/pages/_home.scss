@@ -10,7 +10,9 @@
 
         animation: fadeIn 3.5s ease-out;
 
-        // text-align: center;
+        @include m.respond(tab-land) {
+            overflow: hidden;
+        }
 
         &--text {
             display: inline-block;
@@ -24,14 +26,51 @@
             line-height: 0.65;
             text-transform: uppercase;
 
+            @include m.respond(phone) {
+                -webkit-text-stroke-width: 2px;
+            }
+
             &--1 {
                 font-size: 25rem;
+
                 letter-spacing: -1.4rem;
+
+                @include m.respond(tab-land) {
+                    font-size: 19rem;
+                    letter-spacing: -1rem;
+                }
+                @include m.respond(tab-port) {
+                    font-size: 15.5rem;
+                    letter-spacing: -0.7rem;
+
+                    margin-left: -3rem;
+                }
+                @include m.respond(phone) {
+                    font-size: 10rem;
+                    letter-spacing: -0.7rem;
+                    margin-left: 0;
+                    display: inline;
+                }
             }
 
             &--2 {
                 font-size: 30rem;
                 letter-spacing: -1.3rem;
+
+                @include m.respond(tab-land) {
+                    font-size: 24rem;
+                    letter-spacing: -1rem;
+                }
+
+                @include m.respond(tab-port) {
+                    font-size: 20.5rem;
+                    letter-spacing: -0.7rem;
+                }
+
+                @include m.respond(phone) {
+                    font-size: 15rem;
+                    letter-spacing: -0.7rem;
+                }
             }
         }
     }
@@ -47,6 +86,10 @@
         opacity: 0;
         animation: fadeIn 2s 1.3s ease;
         animation-fill-mode: forwards;
+
+        @include m.respond(tab-port) {
+            font-size: 4rem;
+        }
     }
 
     &__projects {
