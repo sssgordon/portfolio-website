@@ -644,12 +644,6 @@ body {
   animation: fadeIn 2s 1.3s ease;
   animation-fill-mode: forwards;
 }
-@media only screen and (max-width: 56.25em) {
-  .home__arrow {
-    font-size: 4rem;
-    animation-delay: 1.5s;
-  }
-}
 .home__projects {
   width: 60%;
   margin: 0 auto;

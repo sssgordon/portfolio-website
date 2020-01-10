@@ -79,12 +79,6 @@
         opacity: 0;
         animation: fadeIn 2s 1.3s ease;
         animation-fill-mode: forwards;
-
-        @include m.respond(tab-port) {
-            font-size: 4rem;
-
-            animation-delay: 1.5s;
-        }
     }
 
     &__projects {
