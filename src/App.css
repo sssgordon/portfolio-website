@@ -581,6 +581,12 @@ body {
     overflow: hidden;
   }
 }
+@media only screen and (max-width: 56.25em) {
+  .home__welcome {
+    margin-left: -4rem;
+    width: 115%;
+  }
+}
 .home__welcome--text {
   display: inline-block;
   margin: 0;
@@ -610,15 +616,13 @@ body {
   .home__welcome--text--1 {
     font-size: 15.5rem;
     letter-spacing: -0.7rem;
-    margin-left: -3rem;
   }
 }
 @media only screen and (max-width: 37.5em) {
   .home__welcome--text--1 {
-    font-size: 10rem;
-    letter-spacing: -0.7rem;
-    margin-left: 0;
     display: inline;
+    font-size: 11.5rem;
+    letter-spacing: -0.7rem;
   }
 }
 .home__welcome--text--2 {
@@ -656,6 +660,7 @@ body {
 @media only screen and (max-width: 56.25em) {
   .home__arrow {
     font-size: 4rem;
+    animation-delay: 1.5s;
   }
 }
 .home__projects {
@@ -669,7 +674,7 @@ body {
 }
 @media only screen and (max-width: 37.5em) {
   .home__projects {
-    width: 40%;
+    width: 50%;
   }
 }
 .home__footnote {
