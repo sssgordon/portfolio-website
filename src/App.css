@@ -156,6 +156,12 @@ body {
   backface-visibility: hidden;
   cursor: default;
 }
+@media only screen and (max-width: 37.5em) {
+  .heading-primary {
+    font-size: 10rem;
+    -webkit-text-stroke-width: 2px;
+  }
+}
 
 .heading-secondary {
   font-size: 2rem;
@@ -163,6 +169,11 @@ body {
   text-transform: uppercase;
   margin-bottom: 2rem;
   cursor: default;
+}
+@media only screen and (max-width: 37.5em) {
+  .heading-secondary {
+    font-size: 1.8rem;
+  }
 }
 
 .tagline {
@@ -701,6 +712,12 @@ body {
 }
 .project__image {
   width: 100%;
+}
+@media only screen and (max-width: 37.5em) {
+  .project__image {
+    width: 100vw;
+    margin-left: -10vw;
+  }
 }
 .project__image--main {
   margin-bottom: 6rem;

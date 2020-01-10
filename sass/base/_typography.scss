@@ -57,6 +57,11 @@ body {
     backface-visibility: hidden;
 
     cursor: default;
+
+    @include m.respond(phone) {
+        font-size: 10rem;
+        -webkit-text-stroke-width: 2px;
+    }
 }
 
 .heading-secondary {
@@ -67,6 +72,10 @@ body {
     margin-bottom: 2rem;
 
     cursor: default;
+
+    @include m.respond(phone) {
+        font-size: 1.8rem;
+    }
 }
 
 .tagline {
