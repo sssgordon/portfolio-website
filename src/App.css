@@ -200,7 +200,7 @@ body {
 }
 
 .u-margin-top-large {
-  margin-top: 12rem !important;
+  margin-top: 10rem !important;
 }
 
 .u-margin-top-huge {
@@ -515,9 +515,13 @@ body {
   margin: 5rem auto;
 }
 .about__introduction--left {
-  padding-top: 0.6rem;
+  padding-top: 0.5rem;
   text-align: right;
-  animation: fadeInLeft 1s ease-out;
+}
+@media only screen and (max-width: 37.5em) {
+  .about__introduction--left {
+    text-align: left;
+  }
 }
 .about__introduction--left ul {
   list-style: none;
@@ -554,10 +558,7 @@ body {
   width: 75%;
   font-size: 3rem;
   font-weight: 300;
-  opacity: 0;
   cursor: default;
-  animation: fadeInBottom 1s ease-out;
-  animation-fill-mode: forwards;
 }
 @media only screen and (max-width: 56.25em) {
   .about__introduction--right {

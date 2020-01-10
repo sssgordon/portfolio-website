@@ -11,7 +11,13 @@ export default function about(props) {
             <div className="about__introduction">
                 <div className="row">
                     <div className="col-1-of-4">
-                        <div className="about__introduction--left">
+                        <div
+                            className="about__introduction--left"
+                            data-aos="fade"
+                            data-aos-delay="0"
+                            data-aos-duration="1300"
+                            data-aos-easing="ease-out"
+                        >
                             <ul>
                                 <li>
                                     <a
@@ -38,7 +44,13 @@ export default function about(props) {
                         </div>
                     </div>
                     <div className="col-3-of-4">
-                        <div className="about__introduction--right">
+                        <div
+                            className="about__introduction--right"
+                            data-aos="fade"
+                            data-aos-delay="200"
+                            data-aos-duration="1300"
+                            data-aos-easing="ease-out"
+                        >
                             <p>
                                 My name is Gordon So. <br></br>I am a Canadian
                                 developer raised in Hong Kong and working in the

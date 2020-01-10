@@ -12,9 +12,13 @@
     // border: 1px solid lightgrey;
 
     &--left {
-        padding-top: 0.6rem;
+        padding-top: 0.5rem;
         text-align: right;
-        animation: fadeInLeft 1s ease-out;
+        // animation: fadeInLeft 1s ease-out;
+
+        @include m.respond(phone) {
+            text-align: left;
+        }
 
         ul {
             list-style: none;
@@ -57,12 +61,12 @@
         width: 75%;
         font-size: 3rem;
         font-weight: 300;
-        opacity: 0;
+        // opacity: 0;
 
         cursor: default;
 
-        animation: fadeInBottom 1s ease-out;
-        animation-fill-mode: forwards;
+        // animation: fadeInBottom 1s ease-out;
+        // animation-fill-mode: forwards;
 
         @include m.respond(tab-port) {
             font-size: 2.5rem;
