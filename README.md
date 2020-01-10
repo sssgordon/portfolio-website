@@ -4,7 +4,7 @@
 
 ![landing page](https://github.com/sssgordon/portfolio-website/blob/master/public/landing.png)
 
-It is responsively design, you're welcome to see the difference on mobile!
+I built this with **React**, **Sass**, various **CSS animations** and **responsive design**. You're welcome to checkout the adaptations on mobile!
 
 ## Technology used
 
