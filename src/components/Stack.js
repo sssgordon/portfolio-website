@@ -6,11 +6,11 @@ export default function Stack(props) {
             <span className="stack__item stack__item--1 secondary-fill">
                 JavaScript
             </span>
-            <span className="stack__item stack__item--2 primary-stroke">
-                REACT
+            <span className="stack__item stack__item--2 primary-fill">
+                React
             </span>
-            <span className="stack__item stack__item--3 primary-fill">
-                Redux
+            <span className="stack__item stack__item--3 primary-stroke">
+                REDUX
             </span>
             <span className="stack__item stack__item--4 secondary-fill">
                 Node<span className="secondary-stroke">JS</span>
@@ -34,11 +34,11 @@ export default function Stack(props) {
             <span className="stack__item stack__item--10 primary-fill">
                 Postgre<span className="primary-stroke">SQL</span>
             </span>
-            <span className="stack__item stack__item--11 secondary-stroke">
-                DIALOGFLOW
+            <span className="stack__item stack__item--11 secondary-fill">
+                Dialogflow
             </span>
-            <span className="stack__item stack__item--12 primary-fill">
-                Bootstrap
+            <span className="stack__item stack__item--12 primary-stroke">
+                BOOTSTRAP
             </span>
         </div>
     );

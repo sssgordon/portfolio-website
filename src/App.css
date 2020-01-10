@@ -119,13 +119,6 @@ body {
   color: #777;
 }
 
-.stack {
-  font-size: 10.4rem;
-  font-weight: 800;
-  letter-spacing: -0.5rem;
-  line-height: 1;
-}
-
 .primary-fill {
   color: #00b09d;
 }
@@ -284,8 +277,18 @@ body {
 .stack {
   width: 90%;
   margin: 0 auto;
+  font-size: 10.4rem;
+  font-weight: 800;
+  letter-spacing: -0.5rem;
+  line-height: 1;
   text-align: left;
   cursor: default;
+}
+@media only screen and (max-width: 56.25em) {
+  .stack {
+    font-size: 9rem;
+    letter-spacing: -0.3rem;
+  }
 }
 .stack__item {
   display: inline-block;
@@ -514,6 +517,11 @@ body {
   font-weight: 300;
   margin-bottom: 0.5rem;
 }
+@media only screen and (max-width: 56.25em) {
+  .about__introduction--left li {
+    font-size: 2.5rem;
+  }
+}
 .about__introduction--left li a, .about__introduction--left li:visited {
   display: inline-block;
   color: #d70075;
@@ -539,6 +547,17 @@ body {
   cursor: default;
   animation: fadeInBottom 1s ease-out;
   animation-fill-mode: forwards;
+}
+@media only screen and (max-width: 56.25em) {
+  .about__introduction--right {
+    font-size: 2.5rem;
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .about__introduction--right {
+    width: 100%;
+  }
 }
 
 .home__welcome {

@@ -1,4 +1,5 @@
 @use "../abstracts/variables" as v;
+@use '../abstracts/mixins' as m;
 
 .about {
     margin-top: 10rem;
@@ -24,6 +25,10 @@
             font-size: 3rem;
             font-weight: 300;
             margin-bottom: 0.5rem;
+
+            @include m.respond(tab-port) {
+                font-size: 2.5rem;
+            }
 
             a,
             &:visited {
@@ -58,5 +63,15 @@
 
         animation: fadeInBottom 1s ease-out;
         animation-fill-mode: forwards;
+
+        @include m.respond(tab-port) {
+            font-size: 2.5rem;
+
+            width: 90%;
+        }
+
+        @include m.respond(phone) {
+            width: 100%;
+        }
     }
 }
