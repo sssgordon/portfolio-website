@@ -5,12 +5,10 @@ import video_mp4 from "../assets/birch_video.mp4";
 import video_webm from "../assets/birch_video.webm";
 
 export default function Birch(props) {
-    // const pathname = props.location.pathname;
+    const pathname = props.location.pathname;
     return (
         <div className="project u-margin-top-large">
-            <Header
-            // pathname={pathname}
-            />
+            <Header pathname={pathname} />
             <div className="project__heading">
                 <h1 className="project__heading--title heading-primary primary-stroke">
                     Birch
@@ -84,8 +82,8 @@ export default function Birch(props) {
                         Melissa
                     </a>{" "}
                     and I then decided to expand the project into a full-stack
-                    application and created a backend with ExpressJS, Sequelize
-                    and PostgreSQL. You can learn more by heading to the GitHub{" "}
+                    application and made a backend with ExpressJS, Sequelize and
+                    PostgreSQL. You can learn more by heading to the GitHub{" "}
                     <a
                         href="https://github.com/sssgordon/birch"
                         target="_blank"

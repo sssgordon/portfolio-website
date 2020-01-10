@@ -15,14 +15,14 @@ function App(props) {
     return (
         <div className="app">
             <ScrollToTop />
-            <Birch />
-            {/* <Switch>
-                <Route exact path="/jotto" component={Jotto} />
-                <Route exact path="/natours" component={Natours} />
-                <Route exact path="/project-outcry" component={Outcry} />
+            <Switch>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/about" component={About} />
-            </Switch> */}
+                <Route exact path="/project-outcry" component={Outcry} />
+                <Route exact path="/natours" component={Natours} />
+                <Route exact path="/jotto" component={Jotto} />
+                <Route exact path="/birch" component={Birch} />
+            </Switch>
         </div>
     );
 }
