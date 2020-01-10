@@ -10,11 +10,13 @@ import ScrollToTop from "./components/ScrollToTop";
 import Natours from "./components/Natours";
 import Jotto from "./components/Jotto";
 import Birch from "./components/Birch";
+import Lisa from "./components/Lisa";
 
 function App(props) {
     return (
         <div className="app">
             <ScrollToTop />
+
             <Switch>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/about" component={About} />
@@ -22,6 +24,7 @@ function App(props) {
                 <Route exact path="/natours" component={Natours} />
                 <Route exact path="/jotto" component={Jotto} />
                 <Route exact path="/birch" component={Birch} />
+                <Route exact path="/project-lisa" component={Lisa} />
             </Switch>
         </div>
     );

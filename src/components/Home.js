@@ -114,7 +114,12 @@ export default function Home(props) {
                     <div className="square__content">
                         <div className="square__table">
                             <div className="square__table-cell">
-                                <img className="square__img" src={lisaImg} />
+                                <Link to="/project-lisa">
+                                    <img
+                                        className="square__img"
+                                        src={lisaImg}
+                                    />
+                                </Link>
                             </div>
                         </div>
                     </div>
