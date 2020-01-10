@@ -579,12 +579,8 @@ body {
 @media only screen and (max-width: 75em) {
   .home__welcome {
     overflow: hidden;
-  }
-}
-@media only screen and (max-width: 56.25em) {
-  .home__welcome {
-    margin-left: -4rem;
-    width: 115%;
+    margin-left: -3rem;
+    width: 110%;
   }
 }
 .home__welcome--text {
@@ -605,46 +601,37 @@ body {
 .home__welcome--text--1 {
   font-size: 25rem;
   letter-spacing: -1.4rem;
-}
-@media only screen and (max-width: 75em) {
-  .home__welcome--text--1 {
-    font-size: 19rem;
-    letter-spacing: -1rem;
-  }
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 @media only screen and (max-width: 56.25em) {
   .home__welcome--text--1 {
-    font-size: 15.5rem;
-    letter-spacing: -0.7rem;
+    font-size: 22rem;
+    letter-spacing: -1.2rem;
   }
 }
 @media only screen and (max-width: 37.5em) {
   .home__welcome--text--1 {
-    display: inline;
-    font-size: 11.5rem;
-    letter-spacing: -0.7rem;
+    font-size: 18rem;
+    letter-spacing: -1rem;
   }
 }
 .home__welcome--text--2 {
   font-size: 30rem;
   letter-spacing: -1.3rem;
 }
-@media only screen and (max-width: 75em) {
-  .home__welcome--text--2 {
-    font-size: 24rem;
-    letter-spacing: -1rem;
-  }
-}
 @media only screen and (max-width: 56.25em) {
   .home__welcome--text--2 {
-    font-size: 20.5rem;
-    letter-spacing: -0.7rem;
+    font-size: 27rem;
+    letter-spacing: -0.8rem;
   }
 }
 @media only screen and (max-width: 37.5em) {
   .home__welcome--text--2 {
-    font-size: 15rem;
-    letter-spacing: -0.7rem;
+    font-size: 23rem;
+    letter-spacing: -0.6rem;
   }
 }
 .home__arrow {
