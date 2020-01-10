@@ -111,7 +111,7 @@ export default function Lisa(props) {
                 data-aos-delay="0"
                 data-aos-duration="1300"
                 data-aos-easing="ease"
-                data-aos-anchor-placement="center-bottom"
+                data-aos-anchor-placement="bottom-bottom"
             />
             <div className="footnote">&#9400; 2020 Gordon So</div>
         </div>
