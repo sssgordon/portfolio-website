@@ -97,6 +97,10 @@
         margin: 0 auto;
 
         @include m.clearfix;
+
+        @include m.respond(phone) {
+            width: 40%;
+        }
     }
 
     &__footnote {

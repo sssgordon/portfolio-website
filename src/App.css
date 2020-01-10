@@ -431,6 +431,12 @@ body {
   position: absolute;
   left: 0;
 }
+@media only screen and (max-width: 37.5em) {
+  .header__title {
+    font-size: 5rem;
+    top: 1.5rem;
+  }
+}
 .header__link {
   position: absolute;
   top: 50%;
@@ -460,7 +466,7 @@ body {
     height: 100%;
     overflow: visible;
     margin: 0;
-    padding-bottom: 125%;
+    padding-bottom: 150%;
   }
 }
 .square__content {
@@ -630,6 +636,11 @@ body {
   content: "";
   display: table;
   clear: both;
+}
+@media only screen and (max-width: 37.5em) {
+  .home__projects {
+    width: 40%;
+  }
 }
 .home__footnote {
   width: 60%;
