@@ -4,6 +4,8 @@
 
 ![landing page](https://github.com/sssgordon/portfolio-website/blob/master/public/landing.png)
 
+It is responsively design, you're welcome to see the difference on mobile!
+
 ## Technology used
 
 :eyes::point_down: **Click links to see samples in this project** :point_down::eyes:
