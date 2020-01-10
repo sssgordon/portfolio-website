@@ -10,12 +10,6 @@ body {
 }
 
 // about page
-.stack {
-    font-size: 10.4rem;
-    font-weight: 800;
-    letter-spacing: -0.5rem;
-    line-height: 1;
-}
 
 .primary {
     &-fill {
@@ -63,6 +57,11 @@ body {
     backface-visibility: hidden;
 
     cursor: default;
+
+    @include m.respond(phone) {
+        font-size: 10rem;
+        -webkit-text-stroke-width: 1.5px;
+    }
 }
 
 .heading-secondary {
@@ -73,6 +72,10 @@ body {
     margin-bottom: 2rem;
 
     cursor: default;
+
+    @include m.respond(phone) {
+        font-size: 1.8rem;
+    }
 }
 
 .tagline {

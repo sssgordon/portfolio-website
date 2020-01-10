@@ -1,4 +1,5 @@
 @use "../abstracts/variables" as v;
+@use '../abstracts/mixins' as m;
 
 .about {
     margin-top: 10rem;
@@ -11,9 +12,13 @@
     // border: 1px solid lightgrey;
 
     &--left {
-        padding-top: 0.6rem;
+        padding-top: 0.5rem;
         text-align: right;
-        animation: fadeInLeft 1s ease-out;
+        // animation: fadeInLeft 1s ease-out;
+
+        @include m.respond(phone) {
+            text-align: left;
+        }
 
         ul {
             list-style: none;
@@ -24,6 +29,10 @@
             font-size: 3rem;
             font-weight: 300;
             margin-bottom: 0.5rem;
+
+            @include m.respond(tab-port) {
+                font-size: 2.5rem;
+            }
 
             a,
             &:visited {
@@ -52,11 +61,21 @@
         width: 75%;
         font-size: 3rem;
         font-weight: 300;
-        opacity: 0;
+        // opacity: 0;
 
         cursor: default;
 
-        animation: fadeInBottom 1s ease-out;
-        animation-fill-mode: forwards;
+        // animation: fadeInBottom 1s ease-out;
+        // animation-fill-mode: forwards;
+
+        @include m.respond(tab-port) {
+            font-size: 2.5rem;
+
+            width: 90%;
+        }
+
+        @include m.respond(phone) {
+            width: 100%;
+        }
     }
 }

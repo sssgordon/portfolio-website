@@ -1,4 +1,5 @@
 @use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as m;
 
 .divider {
     height: 2px;

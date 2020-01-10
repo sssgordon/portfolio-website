@@ -36,10 +36,10 @@
         position: absolute;
         left: 0;
 
-        // @include m.respond(phone) {
-        //     font-size: 4rem;
-        //     top: 2.5rem;
-        // }
+        @include m.respond(phone) {
+            font-size: 5rem;
+            top: 1.5rem;
+        }
     }
 
     &__link {

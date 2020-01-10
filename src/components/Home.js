@@ -22,7 +22,7 @@ export default function Home(props) {
                     .
                 </span>
             </div>
-            <div className="home__arrow u-margin-top-medium">&darr;</div>
+            <div className="home__arrow u-margin-top-small">&darr;</div>
             <div className="home__projects u-margin-top-medium u-margin-bottom-medium">
                 <div
                     className="square"

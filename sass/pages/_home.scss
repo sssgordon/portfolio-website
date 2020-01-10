@@ -4,7 +4,6 @@
 .home {
     &__welcome {
         width: 100%;
-        // margin: 0 auto;
 
         cursor: default;
 
@@ -12,6 +11,8 @@
 
         @include m.respond(tab-land) {
             overflow: hidden;
+            margin-left: -3rem;
+            width: 110%;
         }
 
         &--text {
@@ -31,25 +32,22 @@
             }
 
             &--1 {
-                font-size: 25rem;
+                font-size: 23rem;
 
-                letter-spacing: -1.4rem;
+                letter-spacing: -1.3rem;
 
-                @include m.respond(tab-land) {
-                    font-size: 19rem;
-                    letter-spacing: -1rem;
-                }
+                -webkit-hyphens: auto;
+                -moz-hyphens: auto;
+                -ms-hyphens: auto;
+                hyphens: auto; // need to define document language;
+
                 @include m.respond(tab-port) {
-                    font-size: 15.5rem;
-                    letter-spacing: -0.7rem;
-
-                    margin-left: -3rem;
+                    font-size: 22rem;
+                    letter-spacing: -1.2rem;
                 }
                 @include m.respond(phone) {
-                    font-size: 10rem;
-                    letter-spacing: -0.7rem;
-                    margin-left: 0;
-                    display: inline;
+                    font-size: 18rem;
+                    letter-spacing: -1rem;
                 }
             }
 
@@ -57,19 +55,14 @@
                 font-size: 30rem;
                 letter-spacing: -1.3rem;
 
-                @include m.respond(tab-land) {
-                    font-size: 24rem;
-                    letter-spacing: -1rem;
-                }
-
                 @include m.respond(tab-port) {
-                    font-size: 20.5rem;
-                    letter-spacing: -0.7rem;
+                    font-size: 27rem;
+                    letter-spacing: -0.8rem;
                 }
 
                 @include m.respond(phone) {
-                    font-size: 15rem;
-                    letter-spacing: -0.7rem;
+                    font-size: 23rem;
+                    letter-spacing: -0.6rem;
                 }
             }
         }
@@ -86,10 +79,6 @@
         opacity: 0;
         animation: fadeIn 2s 1.3s ease;
         animation-fill-mode: forwards;
-
-        @include m.respond(tab-port) {
-            font-size: 4rem;
-        }
     }
 
     &__projects {
@@ -97,6 +86,10 @@
         margin: 0 auto;
 
         @include m.clearfix;
+
+        @include m.respond(phone) {
+            width: 50%;
+        }
     }
 
     &__footnote {
