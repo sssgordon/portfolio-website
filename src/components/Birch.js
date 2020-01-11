@@ -3,6 +3,8 @@ import Header from "./Header";
 
 import video_mp4 from "../assets/birch_video.mp4";
 import video_webm from "../assets/birch_video.webm";
+import birch_1 from "../assets/birch_1.png";
+import birch_2 from "../assets/birch_2.png";
 
 export default function Birch(props) {
     const pathname = props.location.pathname;
@@ -57,8 +59,11 @@ export default function Birch(props) {
                 >
                     Birch is a web shop for audacious plant-lovers. We sell
                     plants that thrive on extreme weather conditions. From your
-                    living room to your garden, our diverse selection nurtures
-                    your daring soul with a taste of adventure.{" "}
+                    bedroom to your garden, our diverse selection nurtures your
+                    daring soul with a taste of adventure. If you feel like it,
+                    you can learn more about a product in its details page, add
+                    it to the wishlist or the basket. The basket automatically
+                    calculates the total price for you before checkout.{" "}
                     <a href="#" target="_blank" className="link">
                         Bon Voyage
                     </a>
@@ -94,6 +99,27 @@ export default function Birch(props) {
                     .
                 </p>
             </div>
+            <img
+                className="project__image u-margin-bottom-medium"
+                src={birch_1}
+                alt="home page"
+                data-aos="fade"
+                data-aos-delay="0"
+                data-aos-duration="1300"
+                data-aos-easing="ease"
+                data-aos-anchor-placement="bottom-bottom"
+            />
+            <img
+                className="project__image"
+                src={birch_2}
+                alt="basket page"
+                data-aos="fade"
+                data-aos-delay="0"
+                data-aos-duration="1300"
+                data-aos-easing="ease"
+                data-aos-anchor-placement="bottom-bottom"
+            />
+            <div className="footnote">&#9400; 2020 Gordon So</div>
         </div>
     );
 }
