@@ -59,7 +59,7 @@ body {
     cursor: default;
 
     @include m.respond(phone) {
-        font-size: 10rem;
+        font-size: 11rem;
         -webkit-text-stroke-width: 1.5px;
     }
 }

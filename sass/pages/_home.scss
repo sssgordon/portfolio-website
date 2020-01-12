@@ -46,7 +46,7 @@
                     letter-spacing: -1.2rem;
                 }
                 @include m.respond(phone) {
-                    font-size: 18rem;
+                    font-size: 16.8rem;
                     letter-spacing: -1rem;
                 }
             }
@@ -61,7 +61,7 @@
                 }
 
                 @include m.respond(phone) {
-                    font-size: 23rem;
+                    font-size: 21.8rem;
                     letter-spacing: -0.6rem;
                 }
             }
