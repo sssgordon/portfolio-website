@@ -15,14 +15,14 @@ export default function Home(props) {
             <Header pathname={pathname} />
             <div className="home__welcome u-padding-left-medium">
                 <span className="home__welcome--text home__welcome--text--1 primary-stroke">
-                    Wish you a fulfilling&nbsp;
+                    Wish you a grand&nbsp;
                     <span className="home__welcome--text home__welcome--text--2 secondary-stroke">
                         2020
                     </span>
                     .
                 </span>
             </div>
-            <div className="home__arrow u-margin-top-small">&darr;</div>
+            <div className="home__arrow u-margin-top-medium">&darr;</div>
             <div className="home__projects u-margin-top-medium u-margin-bottom-medium">
                 <div
                     className="square"
@@ -48,7 +48,7 @@ export default function Home(props) {
                 <div
                     className="square"
                     data-aos="fade"
-                    data-aos-delay="500"
+                    data-aos-delay="200"
                     data-aos-duration="1300"
                     data-aos-easing="ease"
                 >
@@ -90,7 +90,7 @@ export default function Home(props) {
                 <div
                     className="square"
                     data-aos="fade"
-                    data-aos-delay="500"
+                    data-aos-delay="200"
                     data-aos-duration="1300"
                     data-aos-easing="ease"
                 >

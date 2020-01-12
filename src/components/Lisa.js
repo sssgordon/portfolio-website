@@ -110,10 +110,10 @@ export default function Lisa(props) {
                 src={lisa_1}
                 alt="create menu page"
                 data-aos="fade"
-                data-aos-delay="0"
+                data-aos-delay="200"
                 data-aos-duration="1300"
                 data-aos-easing="ease"
-                data-aos-anchor-placement="bottom-bottom"
+                data-aos-anchor-placement="center-bottom"
             />
             <div className="footnote">&#9400; 2020 Gordon So</div>
         </div>
