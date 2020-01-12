@@ -605,29 +605,29 @@ body {
 }
 @media only screen and (max-width: 56.25em) {
   .home__welcome--text--1 {
-    font-size: 20.5rem;
+    font-size: 20rem;
     letter-spacing: -1rem;
   }
 }
 @media only screen and (max-width: 37.5em) {
   .home__welcome--text--1 {
-    font-size: 15.5rem;
+    font-size: 15rem;
     letter-spacing: -1rem;
   }
 }
 .home__welcome--text--2 {
-  font-size: 39.5rem;
+  font-size: 30rem;
   letter-spacing: -1.3rem;
 }
 @media only screen and (max-width: 56.25em) {
   .home__welcome--text--2 {
-    font-size: 26.5rem;
+    font-size: 26rem;
     letter-spacing: -1rem;
   }
 }
 @media only screen and (max-width: 37.5em) {
   .home__welcome--text--2 {
-    font-size: 20.5rem;
+    font-size: 20rem;
     letter-spacing: -0.9rem;
   }
 }

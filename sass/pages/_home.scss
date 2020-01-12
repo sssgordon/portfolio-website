@@ -46,26 +46,26 @@
                 hyphens: auto; // need to define document language;
 
                 @include m.respond(tab-port) {
-                    font-size: 20.5rem;
+                    font-size: 20rem;
                     letter-spacing: -1rem;
                 }
                 @include m.respond(phone) {
-                    font-size: 15.5rem;
+                    font-size: 15rem;
                     letter-spacing: -1rem;
                 }
             }
 
             &--2 {
-                font-size: 39.5rem;
+                font-size: 30rem;
                 letter-spacing: -1.3rem;
 
                 @include m.respond(tab-port) {
-                    font-size: 26.5rem;
+                    font-size: 26rem;
                     letter-spacing: -1rem;
                 }
 
                 @include m.respond(phone) {
-                    font-size: 20.5rem;
+                    font-size: 20rem;
                     letter-spacing: -0.9rem;
                 }
             }
