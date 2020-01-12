@@ -62,8 +62,8 @@ export default function Birch(props) {
                     bedroom to your garden, our diverse selection nurtures your
                     daring soul with a taste of adventure. You can learn more
                     about a product in its details page, add it to the wishlist
-                    or the basket. The basket automatically calculates the total
-                    price for you before checkout.{" "}
+                    or straight to the basket. The basket automatically
+                    calculates the total price for you before checkout.{" "}
                     <a
                         href="http://enigmatic-inlet-27404.herokuapp.com/"
                         target="_blank"
