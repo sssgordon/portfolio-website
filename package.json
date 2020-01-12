@@ -17,7 +17,11 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "watch:sass": "sass --watch sass/main.scss src/App.css"
+        "watch:sass": "sass --watch sass/main.scss src/App.css",
+        "compile:sass": "sass sass/main.scss css/style.comp.css",
+        "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/style.comp.css -o css/style.prefix.css",
+        "compress:css": "sass css/style.prefix.css src/App.css --style=compressed",
+        "build:css": "npm-run-all compile:sass prefix:css compress:css"
     },
     "eslintConfig": {
         "extends": "react-app"
