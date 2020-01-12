@@ -11,12 +11,12 @@
 
         @include m.respond(tab-land) {
             // overflow: hidden;
-            margin-left: -3rem;
+            margin-left: -2rem;
         }
 
         @include m.respond(phone) {
             overflow: hidden;
-            width: 105.5%;
+            width: 104%;
         }
 
         &--text {

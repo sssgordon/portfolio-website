@@ -11,7 +11,7 @@ import lisaImg from "../assets/lisa_img.jpg";
 export default function Home(props) {
     const pathname = props.location.pathname;
     return (
-        <div className="home u-margin-top-large">
+        <div className="home u-margin-top-arrow">
             <Header pathname={pathname} />
             <div className="home__welcome u-padding-left-medium">
                 <span className="home__welcome--text home__welcome--text--1 primary-stroke">
