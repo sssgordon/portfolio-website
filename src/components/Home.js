@@ -11,7 +11,7 @@ import lisaImg from "../assets/lisa_img.jpg";
 export default function Home(props) {
     const pathname = props.location.pathname;
     return (
-        <div className="home u-margin-top-large">
+        <div className="home u-margin-top-arrow">
             <Header pathname={pathname} />
             <div className="home__welcome u-padding-left-medium">
                 <span className="home__welcome--text home__welcome--text--1 primary-stroke">
@@ -22,7 +22,7 @@ export default function Home(props) {
                     .
                 </span>
             </div>
-            <div className="home__arrow u-margin-top-medium">&darr;</div>
+            <div className="home__arrow u-margin-top-large">&darr;</div>
             <div className="home__projects u-margin-top-medium u-margin-bottom-medium">
                 <div
                     className="square"
