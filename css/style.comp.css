@@ -567,8 +567,9 @@ body {
 }
 @media only screen and (max-width: 75em) {
   .home__welcome {
+    overflow: hidden;
     margin-left: -3rem;
-    width: 105%;
+    width: 107%;
   }
 }
 .home__welcome--text {
