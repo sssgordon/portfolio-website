@@ -1,9 +1,8 @@
 import React from "react";
-import { Switch, Route, Link } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import "./App.css";
 
 import About from "./components/About";
-import Header from "./components/Header";
 import Home from "./components/Home";
 import Outcry from "./components/Outcry";
 import ScrollToTop from "./components/ScrollToTop";

@@ -10,9 +10,9 @@
         animation: fadeIn 3.5s ease-out;
 
         @include m.respond(tab-land) {
-            overflow: hidden;
+            // overflow: hidden;
             margin-left: -3rem;
-            width: 110%;
+            width: 105%;
         }
 
         &--text {

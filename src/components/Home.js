@@ -37,6 +37,7 @@ export default function Home(props) {
                                 <Link to="/project-outcry">
                                     <img
                                         className="square__img"
+                                        alt="project outcry"
                                         src={outcryImg}
                                     />
                                 </Link>
@@ -58,6 +59,7 @@ export default function Home(props) {
                                     <img
                                         className="square__img"
                                         src={natoursImg}
+                                        alt="natours"
                                     />
                                 </Link>
                             </div>
@@ -78,6 +80,7 @@ export default function Home(props) {
                                     <img
                                         className="square__img"
                                         src={jottoImg}
+                                        alt="jotto"
                                     />
                                 </Link>
                             </div>
@@ -98,6 +101,7 @@ export default function Home(props) {
                                     <img
                                         className="square__img"
                                         src={birchImg}
+                                        alt="birch"
                                     />
                                 </Link>
                             </div>
@@ -118,6 +122,7 @@ export default function Home(props) {
                                     <img
                                         className="square__img"
                                         src={lisaImg}
+                                        alt="project lisa"
                                     />
                                 </Link>
                             </div>
