@@ -60,10 +60,10 @@ export default function Birch(props) {
                     Birch is a web shop for audacious plant-lovers. We sell
                     plants that thrive on extreme weather conditions. From your
                     bedroom to your garden, our diverse selection nurtures your
-                    daring soul with a taste of adventure. If you feel like it,
-                    you can learn more about a product in its details page, add
-                    it to the wishlist or the basket. The basket automatically
-                    calculates the total price for you before checkout.{" "}
+                    daring soul with a taste of adventure. You can learn more
+                    about a product in its details page, add it to the wishlist
+                    or the basket. The basket automatically calculates the total
+                    price for you before checkout.{" "}
                     <a href="#" target="_blank" className="link">
                         Bon Voyage
                     </a>

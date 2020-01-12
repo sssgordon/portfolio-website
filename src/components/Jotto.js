@@ -71,8 +71,8 @@ export default function Jotto(props) {
                     data-aos-anchor=".divider"
                 >
                     This jotto game demonstrates my execution of test-driven
-                    development (TDD) using Jest and Enzyme on React and Redux.
-                    You can learn more about my implementation by visiting the{" "}
+                    development using Jest and Enzyme on React and Redux. You
+                    can learn more about my implementation by visiting the{" "}
                     <a
                         href="https://github.com/sssgordon/jotto"
                         target="_blank"
