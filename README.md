@@ -1,6 +1,6 @@
 # :open_file_folder: My Portfolio :open_file_folder:
 
-## :pushpin: [Checkout the deployed version here!](#) :pushpin:
+## :pushpin: [Checkout the deployed version here!](http://www.gordon-so.com/) :pushpin:
 
 ![landing page](https://github.com/sssgordon/portfolio-website/blob/master/public/landing.png)
 
